@@ -1,0 +1,5 @@
+/nuxt/
+/*.js
+/*.json
+/node_module/
+/pms/

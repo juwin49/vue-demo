@@ -1,0 +1,27 @@
+{
+  "name": "vue-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env PATH_TYPE=local nuxt",
+    "build": "nuxt build",
+    "start": "cross-env PATH_TYPE=start nuxt start",
+    "generate": "cross-env PATH_TYPE=generate nuxt generate"
+  },
+  "dependencies": {
+    "7": "0.0.1",
+    "babel-eslint": "^10.1.0",
+    "core-js": "^3.9.1",
+    "koa": "^2.13.1",
+    "less": "^4.1.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.3",
+    "@nuxt/typescript-build": "^2.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.28.0",
+    "eslint-plugin-vue": "^7.11.0",
+    "less-loader": "^7.3.0"
+  }
+}
